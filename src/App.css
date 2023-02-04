@@ -61,34 +61,10 @@ body{
 
 
 /* TodoContainer */
-.todo-container{
-    background-color: #fff;
-    width: auto;
-    height: auto;
-    padding: 20px 15px;
-    border-bottom: 1px solid #1f1f1f5a;
+.todo-container-list{
+    width: 500px;
     display: flex;
     align-items: center;
+    flex-direction: row;
     justify-content: space-around;
-    border-radius: 4px;
-    outline: none;
 }
-
-.todo-input-span{
-    font-size: 18px;
-    margin-left: 10px;
-    flex-grow: 1;
-}
-
-
-#todolist-check{
-    width: 1.6rem;
-    height: 18px;
-}
-
-input[type=radio]:checked + .todo-input-span{
-    text-decoration: line-through;
-    transition: text-decoration 1.5s ease-in-out;
-    color: #ddd;
-  }
-/* End of TodoContainer */
